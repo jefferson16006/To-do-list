@@ -1,0 +1,133 @@
+body{
+    background: rgb(212, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#sub-container{
+    padding: 10px;
+}
+#dashboard{
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    height: 150px;
+    background: #333399; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #333399, #33ccff); /* For Safari */
+    background: -o-linear-gradient(bottom right, #333399, #33ccff); /* For Opera */
+    background: -moz-linear-gradient(bottom right, #333399, #33ccff); /* For Firefox */
+    background: linear-gradient(bottom right, #333399, #33ccff); /* Standard syntax */
+}
+#date-el{
+    font-size: 26px;
+    width: 50%;
+    text-align: left;
+    padding-top: 15px;
+    margin: 0;
+    padding-left: 28px;
+}
+#refresh{
+    border: 1px solid #33ccff;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 65px;
+    left: 127px;
+    background: #1972f7;   
+}
+#refresh:hover{
+    opacity: 0.9;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+input{
+    width: 240px;
+    height: 45px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+#add-item{
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    background: #333399; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #333399, #33ccff); /* For Safari */
+    background: -o-linear-gradient(bottom right, #333399, #33ccff); /* For Opera */
+    background: -moz-linear-gradient(bottom right, #333399, #33ccff); /* For Firefox */
+    background: linear-gradient(bottom right, #333399, #33ccff); /* Standard syntax */
+}
+#add-item:hover{
+    opacity: 0.9;
+}
+.new-item{  
+    text-align: left;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    width: 97%;
+    box-sizing: border-box;
+    padding: 17px 10px 17px 15px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+.delete-btn{
+    background: #333399; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #333399, #33ccff); /* For Safari */
+    background: -o-linear-gradient(bottom right, #333399, #33ccff); /* For Opera */
+    background: -moz-linear-gradient(bottom right, #333399, #33ccff); /* For Firefox */
+    background: linear-gradient(bottom right, #333399, #33ccff); /* Standard syntax */
+    float: right;
+    margin: -11px 0 0 0;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    border: none;
+    border-radius: 7px;
+    font-size: 30px;
+}
+.done-btn{
+    background: #333399; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #333399, #33ccff); /* For Safari */
+    background: -o-linear-gradient(bottom right, #333399, #33ccff); /* For Opera */
+    background: -moz-linear-gradient(bottom right, #333399, #33ccff); /* For Firefox */
+    background: linear-gradient(bottom right, #333399, #33ccff); /* Standard syntax */
+    float: right;
+    margin: -11px 0 0 8px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    border: none;
+    border-radius: 7px;
+    clear: right;
+    font-size: 30px;
+}
+

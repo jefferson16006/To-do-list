@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>TO-DO List</title>
+        <link rel="stylesheet" href="to-do-list.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center>
+            <div id="container">
+                <div id="dashboard">
+                    <h1 id="date-el"></h1>
+                    <button id="refresh">Refresh</button>
+
+                    <div class="flex-container">
+                        <div id="total">Total: 0</div>
+                        <div id="remainder">Remaining: 0</div>
+                        <div id="done">Done: 0</div>  
+                    </div>
+                </div>
+                <div id="sub-container">
+                    <input type="text" id="input-el" placeholder="Add an Item">
+                    <button id="add-item">&#xFF0B; Add item</button>
+                    <p style="font-size: 20px;" id="task-txt"></p>
+                    <div id="lists"></div>
+                </div>
+            </div>
+        </center>
+        <script src="to-do-list.js"></script>
+    </body>
+</html>
